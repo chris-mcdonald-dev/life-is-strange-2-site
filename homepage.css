@@ -42,25 +42,6 @@
   font-size: 0.8rem;
 }
 
-nav {
-  background-color: black;
-  opacity: 0.8;
-  padding: 20px 0px;
-  position: absolute;
-  width: 100%;
-}
-
-nav .menu-icon {
-  position: absolute;
-  right: 25px;
-  width: 25px;
-}
-nav .logo {
-  width: 120px;
-  left: 25px;
-  position: relative;
-}
-
 .top-section {
   background-image: url(https://fyre.cdn.sewest.net/siren/603cf8d3f34ffb001a3cb49e/lis2-hero-mobile-LX3rw6kJv.jpg?width=600);
   background-size: cover;
