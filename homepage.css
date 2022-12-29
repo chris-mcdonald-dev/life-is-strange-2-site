@@ -1,14 +1,37 @@
 * {
   border: none;
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
-.buttons-container button {
-  padding: 10px 26px;
-  font-size: 1.1rem;
+.top-section {
+  background-image: url(top-section-background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  position: relative;
+  top: 100px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  bottom: 100px;
+}
+
+button {
+  padding: 8px 26px;
+  font-size: 1rem;
   font-weight: 700;
-  width: 200px;
 }
 
 .watch-trailer {
@@ -18,62 +41,4 @@
 .buy-now {
   background-color: yellow;
   color: black;
-}
-
-.buttons-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  position: relative;
-  bottom: 40px;
-}
-
-.buttons-container img {
-  width: 40px;
-  position: relative;
-  bottom: 15px;
-}
-
-.buttons-container p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-nav {
-  background-color: black;
-  opacity: 0.8;
-  padding: 20px 0px;
-  position: absolute;
-  width: 100%;
-}
-
-nav .menu-icon {
-  position: absolute;
-  right: 25px;
-  width: 25px;
-}
-nav .logo {
-  width: 120px;
-  left: 25px;
-  position: relative;
-}
-
-.top-section {
-  background-image: url(top-section-background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-color: grey;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.top-section .logo {
-  position: relative;
-  top: 100px;
 }
